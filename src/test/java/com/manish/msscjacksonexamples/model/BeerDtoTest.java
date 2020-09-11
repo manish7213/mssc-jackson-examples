@@ -25,7 +25,7 @@ public class BeerDtoTest extends BaseTest {
     void testDeserializeJson() throws JsonProcessingException {
 
         String jsonString = "{\n" +
-                "   \"id\":\"3d741157-e8b7-48f0-909c-4b47521bfd09\",\n" +
+                "   \"beerId\":\"3d741157-e8b7-48f0-909c-4b47521bfd09\",\n" +
                 "   \"beerName\":\"BeerName\",\n" +
                 "   \"beerStyle\":\"Ale\",\n" +
                 "   \"upc\":123456,\n" +
